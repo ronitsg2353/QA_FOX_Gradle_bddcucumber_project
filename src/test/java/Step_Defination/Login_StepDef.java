@@ -1,20 +1,15 @@
-package Step_Definition;
+package Step_Defination;
 
 import DriverFactory.DriverFactory;
 import Pages.Homepage;
 import Pages.loginPage;
-import dev.failsafe.internal.util.Durations;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.messages.types.Duration;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.IOException;
 

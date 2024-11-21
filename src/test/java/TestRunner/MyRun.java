@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                     dryRun = false,
                     monochrome = true,
                     tags = "@Ronit",
-                    glue = {"Step_Definition","Hook"},
-                    plugin = { "pretty","html:Target/cucumber_report/cucumberReport7.html"}
+                    glue = {"Step_Defination","Hook"},
+                  plugin = { "pretty","html:Target/cucumber_report/cucumberReport7.html"}
 )
 public class MyRun {
 
